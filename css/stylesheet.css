@@ -1,0 +1,236 @@
+/* 
+
+This file contains all your CSS style rules. 
+indent = 2 spaces, not tabs 
+
+Reference: http://www.w3schools.com/css/default.asp
+
+*/
+
+/* because every browser has a built in stylesheet we have to reset those properties that we want to manipulate later. We do this by setting those properties to zero for the entire HTML document and any other tag selectors we want to redefine from scratch*/
+
+html h1 {
+  margin: 0;
+}
+
+/* next we set up those properties that we want to apply everywhere that is visible on the page using the body selector. Notice the "font-family" */
+/*  SAL: Here's our color palette to match the logo based on the color #4670a3 with a compound 
+structure.  I've updated this to a more pastel palette.
+    #031637 = very Dark Blue 
+    #3c3732 = very Dark Brown 
+    #4670a3 = Base Mid blue
+    #5656a5 = more Saturated Mid Blue
+    #d2a872 = Light Orange
+    #ccdbdd = very light blue
+*/ 
+body {
+  font-size: 1.1em;
+  font-family:'Merienda', cursive;
+  background-color: #031637;
+  color: #031637;
+}
+/* SAL: this changes all link styling */
+a { 
+  text-decoration: none;
+  font-weight: bolder;
+  color: #3c3732;
+} 
+
+/* SAL: Added the navigation styling  */
+#navheadshot {
+  border: solid #d57e46;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  overflow: hidden;
+}
+
+nav {
+  border: #d57e46;
+  border-style: solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  background-color: #d2a872;
+  width: 30%;
+  min-width: 50px;
+  max-width: 200px;
+  float: left;
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #3c3732;
+}
+
+/* SAL: changes the nav link to be blue on current page */
+#navCurrentPage{
+  color:#031637;
+}
+
+
+
+/* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
+*/
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4670a3;
+  border: solid #5656a5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  clear: both;
+
+}
+
+/* SAL: this is to skip the title on robot searches. Bad robots... */
+
+.fakeCoh1 {
+  font-size: 1.7em;
+  font-weight: bolder;
+  float: left;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.fakeRegh1{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+header h1, h2 {
+  float: left;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+header h2 {
+  font-size: 20px;
+}
+
+.clear {
+   clear:both;
+}
+
+.page_heading {
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-left: 20px;
+    background-color: orange;
+  } 
+
+.logo {
+  float: right;
+  margin: 15px;
+  border-width:5px;
+  border: solid #5656a5;
+  border-radius:10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  overflow: hidden;
+}
+
+.article {
+  margin: 10px;
+  width: 70%;
+  max-width: 660px;
+  float: left;
+}
+
+.article_heading {
+  width: 80%;
+  margin-left: 20px;
+  padding: 10px;
+  border: solid #d57e46;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  background-color: #d2a872;
+
+}
+
+.article_content {
+  margin: 0 20px 0 20px;
+  padding: 10px;
+  border: 1px solid #3c3732;
+  background-color: #ccdbdd;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border: solid #5656a5;
+
+}
+
+.prompt_text {
+  font-size: 24px;
+  padding-left: 10px;
+  color: #000;
+}
+.form_field_table {
+  margin-left: 30px;
+  border: none;
+}
+.form_field_table td {color: #00f;}
+
+form {
+  color: #00f;
+}
+.buttons {
+  float: right;
+}
+
+.float_right {
+  float: right;
+}
+
+.main {
+  clear: both;
+
+
+}
+/* finally, the footer stretches across the whole page width in an open, centered sort of way. */
+.footer {
+  background-color: #4670a3
+  font-size: .80em;
+  min-height: 40px;
+  text-align: center;
+  margin: 20px;
+  clear:both;
+}
+
+.contact_information {
+    margin-left: 20px;
+}
+
+.attribution {
+  background-color: #4670a3;
+  font-size: 9px;
+  min-height: 40px;
+  margin: 8px;
+  clear:both;
+}
+
+@media (max-width: 600px) {
+  .validation_badge {
+    display: none;
+  }
+

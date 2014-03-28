@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <title>Make an Appointment</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href='http://fonts.googleapis.com/css?family=Merienda:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+  </head>
+
+  <body>
+
+    <div class="container"> <!-- contains everything on the page; used for centering and margins-->
+
+    <header> <!-- contains the constant stuff at the top of the page -->    
+          <img src="images/logo.jpg" class="logo"
+           alt="blue skies with fluffy white clouds" 
+           height="130px" 
+           width="600px"
+           /> 
+          <div class="fakeCoh1">Telling Touch</div>
+          <h2>Get in touch with your <em>true</em> self</h2>
+          <br class="clear"/>
+    </header>
+    <div class="main">
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contactus.html" ID="navCurrentPage">CONTACT US</a></li>
+          </ul>        
+<!-- SAL: Julie face placed in navigation -->
+          <img src="images/headshot.jpg" 
+            id="navheadshot"
+            alt="Julie Photo - by Pat David - Common Commercial License" 
+            height="150px" 
+            width="150px" />
+        </nav>
+        <h1>Make an Appointment</h1>  
+        <section class="article"> 
+ 		<article>
+            <div class="article_heading">
+             <div class="fakeRegh1">Please fill out to the best of your knowledge</div>
+            </div>
+            <div class="article_content">
+              <p>This is an article paragraph and other stuff.</p>
+              
+              <form method="post" action="http:form-echo.herokuapp.com/form-echo">
+                <table class="form_field_table">
+                  <tr>
+                    <td width="29%">Your email:</td>
+                    <td width="71%">
+                      <input type="text"  name="recipient" value="me@example.com" size="40" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="29%">Your name: </td>
+                    <td width="71%">
+                      <input type="text" name="customer_name" size="40" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="29%">Your phone:</td>
+                    <td width="71%">
+                      <input type="text" name="customer_phone" size="40" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="29%">Message:</td>
+                    <td width="71%">
+                      <textarea name="customer_message" rows="7" cols="50"> </textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="29%">&nbsp</td>
+                    <td width="71%">
+                      <div class="buttons">
+                        <a href="#">Never mind</a>  <input name="submit" type="submit" value="Send us feedback" />
+                      </div> 
+                    </td>           
+                  </tr>
+                </table>                 
+              </form>
+            </div>    
+          </article>
+        </section>
+      </div>  
+    	<!-- the footer area sits at the bottom of the page -->
+<footer>
+  <div class="footer">
+    <div class="contact_information">
+      Contact Us
+      <a href="mailto:contact@email.com">cljschnider@gmail.com</a>
+    </div>
+      <div class="attribution" style="span">        
+        Headshot Image By:
+        <a href="http://www.flickr.com/photos/39707801@N00/10214643804"target="http://www.flickr.com/photos/39707801@N00/10214643804">"Pat David"</a>
+        Logo Image By: 
+        <a href="http://www.flickr.com/photos/14648291@N04/8353617707/" target="http://www.flickr.com/photos/14648291@N04/8353617707/">"The Tedster"</a>
+       <br/>
+       <br/>          
+  Copyright &copy; 2013 <i>Carrie Schnider</i>
+   <!--U+000A9 named char ref for &copy-->  
+  </div> 
+</footer>
+  	</div>  <!-- .container -->
+
+
+  </body>
+</html>
