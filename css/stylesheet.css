@@ -153,7 +153,7 @@ header h2 {
   margin: 10px;
   width: 70%;
   max-width: 660px;
-  float: left;
+  float: right;
 }
 
 .article_heading {
@@ -177,7 +177,23 @@ header h2 {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border: solid #5656a5;
+  font-size: 1em;
 
+}
+
+/*XJT styling to decrease font size for blog infotext and publishedon */
+
+.blog_title {
+  font-size: 1em;
+} 
+
+.blog_subheading {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.blog_text {
+  font-size: 0.8em;
 }
 
 .prompt_text {
