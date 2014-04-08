@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.33)
 # Database: modx_cc_03
-# Generation Time: 2014-04-08 17:41:16 +0000
+# Generation Time: 2014-04-08 18:01:42 +0000
 # ************************************************************
 
 
@@ -1818,7 +1818,8 @@ VALUES
 	(368,1,'2014-04-08 16:34:11','file_update','','/Applications/MAMP/htdocs/modx-cc3/assets/code_challenge_03/css/stylesheet.css'),
 	(369,1,'2014-04-08 16:34:48','file_update','','/Applications/MAMP/htdocs/modx-cc3/assets/code_challenge_03/css/stylesheet.css'),
 	(370,1,'2014-04-08 16:38:15','chunk_update','modChunk','2'),
-	(371,1,'2014-04-08 16:39:05','chunk_update','modChunk','2');
+	(371,1,'2014-04-08 16:39:05','chunk_update','modChunk','2'),
+	(372,1,'2014-04-08 17:50:00','tv_create','modTemplateVar','2');
 
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1884,7 +1885,8 @@ LOCK TABLES `modx_media_sources_elements` WRITE;
 
 INSERT INTO `modx_media_sources_elements` (`source`, `object_class`, `object`, `context_key`)
 VALUES
-	(1,'modTemplateVar',1,'web');
+	(1,'modTemplateVar',1,'web'),
+	(1,'modTemplateVar',2,'web');
 
 /*!40000 ALTER TABLE `modx_media_sources_elements` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -2269,7 +2271,7 @@ LOCK TABLES `modx_session` WRITE;
 
 INSERT INTO `modx_session` (`id`, `access`, `data`)
 VALUES
-	('7dd5cd08019dd266ace2d8535834f559',1396978121,'modx.user.0.resourceGroups|a:1:{s:3:\"mgr\";a:0:{}}modx.user.0.attributes|a:2:{s:3:\"web\";a:4:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}}s:3:\"mgr\";a:4:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}}}modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.mgr.user.token|s:52:\"modx5339efcec9a610.83805329_1534431c97f1907.17644644\";modx.mgr.session.cookie.lifetime|i:604800;'),
+	('7dd5cd08019dd266ace2d8535834f559',1396979411,'modx.user.0.resourceGroups|a:1:{s:3:\"mgr\";a:0:{}}modx.user.0.attributes|a:2:{s:3:\"web\";a:4:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}}s:3:\"mgr\";a:4:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}}}modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.mgr.user.token|s:52:\"modx5339efcec9a610.83805329_1534431c97f1907.17644644\";modx.mgr.session.cookie.lifetime|i:604800;newResourceTokens|a:1:{i:0;s:23:\"534436d3bdac88.15566195\";}'),
 	('ef85d019a9ecbb888394787d038a5681',1396634173,'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.mgr.user.token|s:52:\"modx5339efcec9a610.83805329_1533ed8d806ef71.84415654\";modx.mgr.session.cookie.lifetime|i:0;newResourceTokens|a:2:{i:0;s:23:\"533ef23685a0a8.86663344\";i:1;s:23:\"533ef23dccbd53.70426110\";}'),
 	('mtha6mvec9v2vv3s9s9r3mglm1',1396937750,'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.mgr.user.token|s:52:\"modx532f36168fbdd7.53885645_153439416107a37.05700159\";modx.mgr.session.cookie.lifetime|i:0;'),
 	('33527cea5d3a1ea3c9d194770fb2cc05',1396974127,'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.mgr.user.token|s:52:\"modx5339efcec9a610.83805329_153441d860844e8.58600440\";modx.mgr.session.cookie.lifetime|i:0;newResourceTokens|a:7:{i:0;s:23:\"53441efb87d185.15395370\";i:1;s:23:\"534421b5864ae0.20864984\";i:2;s:23:\"534421ecea0d33.66625279\";i:3;s:23:\"534422027b9b19.85244558\";i:4;s:23:\"5344221c405ca2.79935166\";i:5;s:23:\"53442220d5eb70.75225289\";i:6;s:23:\"5344222f9fca36.61750034\";}');
@@ -2644,7 +2646,8 @@ LOCK TABLES `modx_site_tmplvar_templates` WRITE;
 INSERT INTO `modx_site_tmplvar_templates` (`tmplvarid`, `templateid`, `rank`)
 VALUES
 	(1,1,0),
-	(1,2,0);
+	(1,2,0),
+	(2,1,0);
 
 /*!40000 ALTER TABLE `modx_site_tmplvar_templates` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -2688,7 +2691,8 @@ LOCK TABLES `modx_site_tmplvars` WRITE;
 
 INSERT INTO `modx_site_tmplvars` (`id`, `source`, `property_preprocess`, `type`, `name`, `caption`, `description`, `editor_type`, `category`, `locked`, `elements`, `rank`, `display`, `default_text`, `properties`, `input_properties`, `output_properties`, `static`, `static_file`)
 VALUES
-	(1,1,0,'image','nav_image','This is the image for the navigation bar','use this to change the image that is displayed where the \"headshot\" is located in the nav bar.',0,5,0,'',0,'default','','a:0:{}','a:0:{}','a:0:{}',0,'');
+	(1,1,0,'image','nav_image','This is the image for the navigation bar','use this to change the image that is displayed where the \"headshot\" is located in the nav bar.',0,5,0,'',0,'default','','a:0:{}','a:0:{}','a:0:{}',0,''),
+	(2,1,0,'pollslist','poll','Poll Question','This is a poll question',0,0,0,'Did you find this blog article interesting?',0,'default','Yes','a:0:{}','a:2:{s:10:\"allowBlank\";s:5:\"false\";s:8:\"category\";s:1:\"1\";}','a:0:{}',0,'');
 
 /*!40000 ALTER TABLE `modx_site_tmplvars` ENABLE KEYS */;
 UNLOCK TABLES;
