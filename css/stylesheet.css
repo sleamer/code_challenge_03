@@ -73,6 +73,19 @@ nav ul li a {
   color: #3c3732;
 }
 
+/* SAL: Added styling to the dynamic links in sidebarTpl */
+#navArticlePageTitle {
+  font-size: .8em;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+#navArticleLongTitle {
+  font-size: .6em;
+  padding-left: 20%;
+  padding-right: 5%;
+}
+
 /* SAL: changes the nav link to be blue on current page */
 #navCurrentPage{
   color:#031637;
