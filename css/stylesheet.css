@@ -49,6 +49,10 @@ a {
   overflow: hidden;
 }
 
+.bxlider li p {
+  margin: 0 auto;
+}
+
 nav {
   border: #d57e46;
   border-style: solid;
@@ -262,4 +266,3 @@ form {
   .validation_badge {
     display: none;
   }
-
