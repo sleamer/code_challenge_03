@@ -1,13 +1,9 @@
 <nav>
-    <ul>
-        <li><a href="[[~1]]" ID="navCurrentPage">HOME</a></li>
-        <li><a href="[[~2]]">ABOUT</a></li>
-        <li><a href="[[~3]]">CONTACT US</a></li>
-    </ul>        
+	[[Wayfinder? &startId=`0` &level`2`]]       
     <img src="[[*nav_image]]" id="navheadshot" alt="Julie Photo - by Pat David - Common Commercial License" height="150px" width="150px" />
 
 <!-- SAL: This calls the article navigation -->
-[[!getResources? &parents=`[[1]]` &resources=`-1` &tpl=`sidebarTpl`]]
+[[!getResources? &includeContent=`1` &tpl=`sidebarTpl` &parents`1`]]
 <br>
 
 <!-- list for slider -->

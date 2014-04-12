@@ -77,6 +77,12 @@ nav ul li a {
   font-weight: bolder;
   color: #3c3732;
 }
+nav ul ul{
+  display: none;
+}
+nav ul li:hover > ul {
+  display:block;
+}
 
 /* SAL: Added styling to the dynamic links in sidebarTpl */
 #navArticlePageTitle {
@@ -96,7 +102,10 @@ nav ul li a {
   color:#031637;
 }
 
-
+.active a,
+.active:active{
+  color:#031637;
+}
 
 /* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
 */
@@ -262,6 +271,8 @@ form {
   margin: 8px;
   clear:both;
 }
+  
+
 
 @media (max-width: 600px) {
   .validation_badge {
