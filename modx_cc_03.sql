@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 12, 2014 at 04:18 AM
+-- Generation Time: Apr 23, 2014 at 05:11 AM
 -- Server version: 5.5.24-log
 -- PHP Version: 5.3.13
 
@@ -2135,6 +2135,13 @@ CREATE TABLE IF NOT EXISTS `modx_register_messages` (
   KEY `expires` (`expires`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+--
+-- Dumping data for table `modx_register_messages`
+--
+
+INSERT INTO `modx_register_messages` (`topic`, `id`, `created`, `valid`, `accessed`, `accesses`, `expires`, `payload`, `kill`) VALUES
+(1, 'eccbc87e4b5ce2fe28308fd9f2a7baf3', '2014-04-23 05:10:17', '2014-04-23 05:10:17', NULL, 0, 1398230177, 'if (time() > 1398230177) return null;\nreturn 1;\n', 0);
+
 -- --------------------------------------------------------
 
 --
@@ -2208,7 +2215,8 @@ INSERT INTO `modx_session` (`id`, `access`, `data`) VALUES
 ('2sfomtkgo8v2asr0q6telbuq87', 1397068976, 'modx.user.0.resourceGroups|a:1:{s:3:"web";a:0:{}}modx.user.0.attributes|a:1:{s:3:"web";a:4:{s:16:"modAccessContext";a:1:{s:3:"web";a:1:{i:0;a:3:{s:9:"principal";i:0;s:9:"authority";s:1:"0";s:6:"policy";a:1:{s:4:"load";b:1;}}}}s:22:"modAccessResourceGroup";a:0:{}s:17:"modAccessCategory";a:0:{}s:28:"sources.modAccessMediaSource";a:0:{}}}modx.user.contextTokens|a:1:{s:3:"mgr";i:1;}modx.mgr.user.token|s:52:"modx532f36168fbdd7.53885645_1534594b08c4864.21650184";modx.mgr.session.cookie.lifetime|i:0;'),
 ('nsbptpbbur8iq52h09ecpme9d7', 1397246402, 'modx.user.0.resourceGroups|a:1:{s:3:"web";a:0:{}}modx.user.0.attributes|a:1:{s:3:"web";a:4:{s:16:"modAccessContext";a:1:{s:3:"web";a:1:{i:0;a:3:{s:9:"principal";i:0;s:9:"authority";s:1:"0";s:6:"policy";a:1:{s:4:"load";b:1;}}}}s:22:"modAccessResourceGroup";a:0:{}s:17:"modAccessCategory";a:0:{}s:28:"sources.modAccessMediaSource";a:0:{}}}modx.user.contextTokens|a:1:{s:3:"mgr";i:1;}modx.mgr.user.token|s:52:"modx532f36168fbdd7.53885645_15347837783a4d9.73501629";modx.mgr.session.cookie.lifetime|i:0;newResourceTokens|a:20:{i:0;s:23:"534787abe5f649.53876826";i:1;s:23:"5347882e3f8a81.13709890";i:2;s:23:"5347889be058a8.94797433";i:3;s:23:"53478a5d30ebc0.62298519";i:4;s:23:"53478be0624ba3.58137230";i:5;s:23:"5347907e5e2649.33983119";i:6;s:23:"534796a91ccfe0.40831899";i:7;s:23:"534796b8f26ca4.07378372";i:8;s:23:"5347991fde7563.00197447";i:9;s:23:"53479e09af3123.80242105";i:10;s:23:"53479e1c829843.15096977";i:11;s:23:"53479e2179e801.31940382";i:12;s:23:"534838dc880089.45327158";i:13;s:23:"53483e86969bf1.65134968";i:14;s:23:"53483f16f3abf1.31743867";i:15;s:23:"534842507811d0.51884427";i:16;s:23:"5348480f91d1f1.31957358";i:17;s:23:"534848659a7fc4.76056506";i:18;s:23:"53484915ce8d02.75360436";i:19;s:23:"534849c1f3a8d8.47285055";}'),
 ('spa2a5up3h4mu0arh7qaolte53', 1397274495, 'modx.user.0.resourceGroups|a:1:{s:3:"web";a:0:{}}modx.user.0.attributes|a:1:{s:3:"web";a:4:{s:16:"modAccessContext";a:1:{s:3:"web";a:1:{i:0;a:3:{s:9:"principal";i:0;s:9:"authority";s:1:"0";s:6:"policy";a:1:{s:4:"load";b:1;}}}}s:22:"modAccessResourceGroup";a:0:{}s:17:"modAccessCategory";a:0:{}s:28:"sources.modAccessMediaSource";a:0:{}}}modx.user.contextTokens|a:1:{s:3:"mgr";i:1;}modx.mgr.user.token|s:52:"modx532f36168fbdd7.53885645_15348b77f0343b2.30213995";modx.mgr.session.cookie.lifetime|i:0;'),
-('ke1cf44salicjjiqj7efjj7mm2', 1397275994, 'modx.user.contextTokens|a:1:{s:3:"mgr";i:1;}modx.mgr.user.token|s:52:"modx532f36168fbdd7.53885645_15348bbd2e1a641.09274138";modx.mgr.session.cookie.lifetime|i:0;newResourceTokens|a:5:{i:0;s:23:"5348bc3105e5d6.87339259";i:1;s:23:"5348bc84aa2d32.51407022";i:2;s:23:"5348bd01dd7625.71399182";i:3;s:23:"5348bd5507d5e2.18422981";i:4;s:23:"5348bd5a5f80c7.31822151";}');
+('ke1cf44salicjjiqj7efjj7mm2', 1397278147, 'modx.user.contextTokens|a:1:{s:3:"mgr";i:1;}modx.mgr.user.token|s:52:"modx532f36168fbdd7.53885645_15348bbd2e1a641.09274138";modx.mgr.session.cookie.lifetime|i:0;newResourceTokens|a:7:{i:0;s:23:"5348bc3105e5d6.87339259";i:1;s:23:"5348bc84aa2d32.51407022";i:2;s:23:"5348bd01dd7625.71399182";i:3;s:23:"5348bd5507d5e2.18422981";i:4;s:23:"5348bd5a5f80c7.31822151";i:5;s:23:"5348c5be5adde9.93583732";i:6;s:23:"5348c5c378aeb1.55229626";}'),
+('mp9vfbmtqod5pgfhm5qn4grrm2', 1398229817, 'modx.user.0.resourceGroups|a:1:{s:3:"web";a:0:{}}modx.user.0.attributes|a:1:{s:3:"web";a:4:{s:16:"modAccessContext";a:1:{s:3:"web";a:1:{i:0;a:3:{s:9:"principal";i:0;s:9:"authority";s:1:"0";s:6:"policy";a:1:{s:4:"load";b:1;}}}}s:22:"modAccessResourceGroup";a:0:{}s:17:"modAccessCategory";a:0:{}s:28:"sources.modAccessMediaSource";a:0:{}}}modx.user.contextTokens|a:1:{s:3:"mgr";i:1;}modx.mgr.user.token|s:52:"modx532f36168fbdd7.53885645_153574b08cd8387.26298775";modx.mgr.session.cookie.lifetime|i:0;newResourceTokens|a:2:{i:0;s:23:"53574b15d00234.05553585";i:1;s:23:"53574b394cb270.68186995";}');
 
 -- --------------------------------------------------------
 
@@ -3207,7 +3215,7 @@ CREATE TABLE IF NOT EXISTS `modx_user_attributes` (
 --
 
 INSERT INTO `modx_user_attributes` (`id`, `internalKey`, `fullname`, `email`, `phone`, `mobilephone`, `blocked`, `blockeduntil`, `blockedafter`, `logincount`, `lastlogin`, `thislogin`, `failedlogincount`, `sessionid`, `dob`, `gender`, `address`, `country`, `city`, `state`, `zip`, `fax`, `photo`, `comment`, `website`, `extended`) VALUES
-(1, 1, 'Default Admin User', 'sleamer@hotmail.com', '', '', 0, 0, 0, 20, 1397274495, 1397275602, 0, 'ke1cf44salicjjiqj7efjj7mm2', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
+(1, 1, 'Default Admin User', 'sleamer@hotmail.com', '', '', 0, 0, 0, 21, 1397275602, 1398229768, 0, 'mp9vfbmtqod5pgfhm5qn4grrm2', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
 (2, 2, 'Nim Wunnan', 'nwunnan@portlandcodeschool.com', '', '', 0, 0, 0, 0, 0, 0, 1, '', 0, 0, '', '', '', '', '', '', '', '', '', '[]'),
 (3, 3, 'Al Zimmerman', 'azimmerman@portlandcodeschool.com', '', '', 0, 0, 0, 6, 1396937024, 1396937107, 0, 'fkb2shl9rjg676ok9huu98vg31', 0, 0, '', '', '', '', '', '', '', '', '', '[]'),
 (4, 4, 'Xander Taylor', 'xanderoid@gmail.com', '', '', 0, 0, 0, 0, 0, 0, 0, '', 0, 0, '', '', '', '', '', '', '', '', '', '[]'),
